@@ -1,0 +1,46 @@
+{
+    "versionLabel": "1.0",
+    "uuid": "06e9b495-e764-4103-a1ee-ecb0c86bc220",
+    "appKeys": {},
+    "longName": "Mickey Analog",
+    "versionCode": 1,
+    "capabilities": [
+        ""
+    ],
+    "shortName": "Mickey Analog",
+    "companyName": "PanicMan",
+    "watchapp": {
+        "watchface": true
+    },
+    "resources": {
+        "media": [
+            {
+                "characterRegex": "[0-9]",
+                "type": "font",
+                "name": "FONT_DATE_20",
+                "file": "fonts/TIMES.TTF"
+            },
+            {
+                "type": "png-trans",
+                "name": "IMAGE_MINUTE_HAND",
+                "file": "images/Minute.png"
+            },
+            {
+                "type": "png-trans",
+                "name": "IMAGE_HOUR_HAND",
+                "file": "images/Hour.png"
+            },
+            {
+                "type": "png",
+                "name": "IMAGE_BACKGROUND",
+                "file": "images/Background.png"
+            },
+            {
+                "menuIcon": true,
+                "type": "png",
+                "name": "IMAGE_MENU",
+                "file": "images/MenuImage.png"
+            }
+        ]
+    }
+}
